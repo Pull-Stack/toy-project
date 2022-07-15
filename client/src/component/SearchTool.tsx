@@ -12,7 +12,7 @@ type StringButtonProps = {
     isActive: boolean;
 }
 const StringButton = styled.div`
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
     color: ${(props: StringButtonProps) => props.isActive? '#333333':'#cccccc'};
     &:hover {
@@ -53,7 +53,7 @@ const CreateStudyButton = styled.div`
 `
 const CreateStudyLabel = styled.div`
     color: #08DAB4;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
 `
 const CreateStudyAddIcon = styled.div`

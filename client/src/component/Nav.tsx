@@ -24,7 +24,7 @@ const LogoIcon = styled.div`
     background-size: 100% 100%;
 `
 const LogoText = styled.div`
-    font-size: 40px;
+    font-size: 2.5rem;
 `
 const Profile = styled.div`
     position: absolute;
