@@ -30,7 +30,7 @@ module.exports = {
         test: /\.(ts|tsx|js|jsx)$/,
         use: 'babel-loader',
         exclude: /node_modules/,
-      },
+      }
     ],
   },
   plugins: [

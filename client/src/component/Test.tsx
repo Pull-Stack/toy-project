@@ -1,7 +1,7 @@
 import React from 'react';
-
-function Test() {
-  return <h1>test</h1>;
+import '../global/font.css';
+export default function Test() {
+  return <>
+  </>
 }
 
-export default Test;
